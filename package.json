@@ -11,5 +11,7 @@
   },
   "author": "Brett H.",
   "license": "ISC",
-  "dependencies": { "fs-extra": "^6.0.0" }
+  "dependencies": {
+    "fs-extra": "^6.0.0"
+  }
 }

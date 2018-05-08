@@ -10,7 +10,7 @@ fs
     packageObj.scripts.e2e = "node index.js";
     packageObj.scripts.poste2e = "echo test";
     fs
-      .writeJSON("./package.json", packageObj)
+      .writeJSON("./package.json", packageObj, { spaces: 2 })
       .then(() => {
         log(
           chalk.green(
