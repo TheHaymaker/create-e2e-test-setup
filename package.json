@@ -1,0 +1,15 @@
+{
+  "name": "create-folders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "node index.js",
+    "pree2e": "echo TEST",
+    "poste2e": "echo test"
+  },
+  "author": "Brett H.",
+  "license": "ISC",
+  "dependencies": { "fs-extra": "^6.0.0" }
+}
